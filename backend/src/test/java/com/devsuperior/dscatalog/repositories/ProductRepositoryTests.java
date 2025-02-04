@@ -54,4 +54,6 @@ public class ProductRepositoryTests {
         Optional<Product> result = repository.findById(idNotExisting);
         Assertions.assertTrue(result.isEmpty());
     }
+
+
 }
